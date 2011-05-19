@@ -143,6 +143,7 @@ alias m8='alias g8="cd `pwd`"'
 alias m9='alias g9="cd `pwd`"'
 alias mdump='alias|grep -e "alias g[0-9]"|grep -v "alias m" > ~/.bookmarks'
 alias lma='alias | grep -e "alias g[0-9]"|grep -v "alias m"|sed "s/alias //"'
+alias sass='irssi -c irc.snoogins.com
 touch ~/.bookmarks
 source ~/.bookmarks
 
