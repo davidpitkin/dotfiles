@@ -2,6 +2,8 @@ set compatible          " We're running Vim, not Vi!
 syntax on                 " Enable syntax highlighting
 filetype plugin indent on " Enable filetype-specific indenting and plugins
 
+" https://dougblack.io/words/a-good-vimrc.html
+
 " Load matchit (% to bounce from do to end, etc.)
 runtime! macros/matchit.vim
 
